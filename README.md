@@ -1,1 +1,2 @@
-### 26.03.2020: 19:51 - splitted into branches by contributors <-- Alex
+### 26.03.2020: 19:51
+splitted into branches by contributors <-- Alex

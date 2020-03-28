@@ -1,2 +1,10 @@
 ### 26.03.2020: 19:51
-splitted into branches by contributors <-- Alex
+>splitted into branches by contributors <-- Alex
+
+### 28.03.2020: 6:21
+> layers and layout   
+> navigation  
+> switching between langs  
+> autocomplete script  <-- Alex
+
+_one small feature of autocomplete took 5 hours and ~100 lines of code_ <sub>sigh</sub>

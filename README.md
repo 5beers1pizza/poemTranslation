@@ -1,5 +1,5 @@
 ### 26.03.2020: 8:21
-> started repo  
+> started the repo/project  
 > created index.html <-- Kevin  
 
 ### 26.03.2020: 19:51

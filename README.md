@@ -10,6 +10,4 @@
 _one small feature of autocomplete took 5 hours and ~100 lines of code_   
 <sub> *sigh</sub>  
 
-![](/prw.png)
-
-![](/prw2.png)
+<img src="/prw.png" alt="drawing" width="300"/>  <img src="/prw2.png" alt="drawing" width="300"/>  

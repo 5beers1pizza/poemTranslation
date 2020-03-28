@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+:root {
+    font-family: Helvetica, sans-serif;
+}
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 10fr;
+    height: 100vh;
+}
+/* navigation */
+nav {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li {
+    padding: .1em;
+}
+/* joke-div */
+.joke {
+    margin-top: 10em;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    visibility: var(--hidden-joke);
+}
+.joke * {
+    padding: .4em;
+}
+.who-there {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1.3em;
+    font-size: 1.1em;
+    line-height: 2;
+}
+.joke form {
+    display: flex;
+    flex-direction: row;
+}
+.joke label {
+    padding-right: 1em;
+}
+.input-wrapper {
+    padding: 0;
+}
+.joke input {
+    background-color: rgb(235, 235, 235);
+    width: 12em;
+    font-size: 1em;
+}
+.joke input,
+.joke input:hover,
+.joke input:focus {
+    border: none;
+    outline: none;
+}
+.autocomplete-items * {
+padding: 0;
+}
+.autocomplete-items p {
+    padding: 0;
+    padding-top: .2em;
+    }
+.autocomplete-items {
+    padding-top: .4em;
+    width: 12em;
+    color: rgb(77, 77, 77);
+    max-height: 10em;
+}
+.autocomplete-items p:hover,
+.autocomplete-items p:focus {
+    background-color: rgb(248, 242, 238);
+}
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: .1em;
+    font-size: .8em;
+    line-height: 1.6;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+/* poem-container */
+.main {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: .1fr 10fr .1fr;
+}
+.poem-container {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: var(--hidden-poem, hidden);
+}
+.arabic-version.poem-container {
+    font-size: 1.1em;
+}

@@ -8,4 +8,6 @@
 > autocomplete script  <-- Alex
 
 _one small feature of autocomplete took 5 hours and ~100 lines of code_   
-<sub> *sigh</sub>
+<sub> *sigh</sub>  
+
+![](/prw.png)

@@ -11,3 +11,5 @@ _one small feature of autocomplete took 5 hours and ~100 lines of code_
 <sub> *sigh</sub>  
 
 ![](/prw.png)
+
+![](/prw2.png)
